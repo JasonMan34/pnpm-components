@@ -160,6 +160,7 @@ end`
 
 function wrapSettings (sectionName: string, settings: string): string {
   return `# ${sectionName}
+# Auto generated section, do not touch anything here
 ${settings}
 # ${sectionName} end`
 }
